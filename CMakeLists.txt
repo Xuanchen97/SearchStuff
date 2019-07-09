@@ -3,4 +3,6 @@ project(LinearSearch)
 
 set(CMAKE_CXX_STANDARD 14)
 
+
+add_executable(BinarySearch BinarySearch.c)
 add_executable(LinearSearch main.cpp)
